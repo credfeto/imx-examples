@@ -35,13 +35,13 @@ const component = '[IMX-CREATE-COLLECTION]';
    * Edit your values here
    */
   const params: CreateCollectionParams = {
-    name: 'ENTER_COLLECTION_NAME',
-    // description: 'ENTER_COLLECTION_DESCRIPTION (OPTIONAL)',
+    name: 'MRTEST',
+    description: 'MRTEST',
     contract_address: collectionContractAddress,
     owner_public_key: ownerPublicKey,
-    // icon_url: '',
-    // metadata_api_url: '',
-    // collection_image_url: '',
+    icon_url: 'https://gateway.pinata.cloud/ipfs/QmTr7BBER3AbHYefr2NBnjLYBWDb8P6vwr5mgPPtZQck1L',
+    metadata_api_url: 'https://gateway.pinata.cloud/ipfs/QmUuVXw8SBr3ZZJwgQw6wdFbw3NhgJMo9b3U6NRsUEXGo5',
+    collection_image_url: 'https://gateway.pinata.cloud/ipfs/QmTr7BBER3AbHYefr2NBnjLYBWDb8P6vwr5mgPPtZQck1L',
     project_id: parseInt(projectId, 10),
   };
 
